@@ -1,7 +1,5 @@
 # Hate Speech Detection in Amharic
 
-# Hate Speech Detection in Amharic
-
 ## Empowering a more inclusive online experience with cutting-edge technology.
 
 This project tackles the critical issue of hate speech in the Amharic language by combining user-friendly design with intelligent NLP detection. By harnessing the power of technology, we aim to foster a safer and more respectful online environment for Amharic speakers worldwide.
@@ -34,6 +32,10 @@ No NLP model is perfect, and this system faces similar limitations. Some complex
 ## Team Members
 
 Beimnet Bekele - UGR/3739/12
+Bisrat Walle - UGR//12
+Feven Belay - UGR/3979/12
+Kaleabe Negussie - UGR/3411/12
+Paulos Dessie - UGR/6912/12
 
 
 
