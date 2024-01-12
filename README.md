@@ -1,1 +1,1 @@
-# NLP-Project
+# Hate Speech Detection in Amharic
