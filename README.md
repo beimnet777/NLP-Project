@@ -12,9 +12,20 @@ Scalable Architecture: Django handles server-side logic and ensures smooth inter
 Comprehensive Solution: Combines advanced technology with a user-friendly interface for widespread impact.
 ## Technical Details:
 
-Frontend: Next.js, Tailwind CSS
-Backend: Django
-NLP Model: (Specify type of model, training data, libraries used)
+Frontend: 
+- Technology: Developed using [Next.js](https://nextjs.org/), a powerful React framework.
+- Design: Features a modern and user-friendly interface, aesthetically crafted with [Tailwind CSS](https://tailwindcss.com/).
+- User Experience: Emphasizes ease of use, with an intuitive layout that simplifies interaction and navigation.
+  
+Backend: 
+- Framework: Built on [Django](https://www.djangoproject.com/), renowned for its robust server-side capabilities.
+- Functionality: Manages server logic and seamlessly interfaces with the NLP model for efficient processing.
+  
+NLP Model: 
+- Core: The heart of the application is a sophisticated NLP model.
+- Training: Specially trained to recognize and categorize hate speech in Amharic text with high accuracy.
+- Purpose: Aims to contribute significantly to the mitigation of hate speech in digital Amharic content.
+  
 ## Usage:
 
 Visit the project website (link here).
