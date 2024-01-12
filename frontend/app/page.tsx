@@ -10,29 +10,23 @@ export default function Home() {
 
   const handleSubmit = () => {
     setLoading(true);
-    setTimeout(() => {
-      // fetch("/api/analyze", {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //   },
-      //   body: JSON.stringify({ text }),
-      // })
-      //   .then((res) => res.json())
-      //   .then((data) => {
-      //     setLoading(false);
-      //     setIshateful(data.isHateful);
-      //     setShowResult(true);
-      //   })
-      //   .catch((err) => {
-      //     setLoading(false);
-      //     setShowResult(true);
-      //     setIshateful(true);
-      //   });
-      setIshateful(Math.random() > 0.5);
-      setLoading(false);
-      setShowResult(true);
-    }, 1000);
+    fetch("http://127.0.0.1:8000/predict/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ content: text }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setLoading(false);
+        setIshateful(data.isHateful);
+        setShowResult(true);
+      })
+      .catch((err) => {
+        setLoading(false);
+        setShowResult(false);
+      });
   };
 
   return (
