@@ -22,14 +22,12 @@ tokenizer2 = AutoTokenizer.from_pretrained(settings.BASE_DIR / "model_tokenizer"
 @permission_classes([AllowAny])
 def predict(request: Request):
     text = request.data.get("content")
-    print(text)
-    Message.objects.create(content=text)
     inputs = tokenizer2(text, return_tensors="pt")
     outputs = model2(**inputs)
     logits = outputs.logits
     predicted_class = logits.argmax().item()
     print(predicted_class, text)
     if predicted_class == 1:
-        return Response(True)
+        return Response({"isHateful": True})
     else:
-        return Response(False)
+        return Response({"isHateful": False})
