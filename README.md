@@ -39,8 +39,7 @@ Input: "ትክክለኛውን ታሪክ እንነግራለን።" (We will tell 
 Output: Not Hate Speech
 ## Limitations:
 
-No NLP model is perfect, and this system faces similar limitations. Some complex or nuanced hate speech might go undetected, highlighting the need for continuous improvement.
-## Team Members
+No NLP model is perfect, and this hate speech detection system is no exception. While it provides a valuable tool for identifying and addressing hate speech in Amharic, it comes with certain limitations. Some complex or subtle instances of hate speech may go undetected due to the inherent challenges in interpreting language nuances and context. The system's performance is influenced by the quality and diversity of the training data, and it may not capture evolving forms of hate speech. Continuous improvement through regular updates and community contributions is essential to enhance the model's accuracy and effectiveness. 
 
 ## Team Members
 
