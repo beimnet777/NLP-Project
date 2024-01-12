@@ -31,11 +31,13 @@ Output: Not Hate Speech
 No NLP model is perfect, and this system faces similar limitations. Some complex or nuanced hate speech might go undetected, highlighting the need for continuous improvement.
 ## Team Members
 
-Beimnet Bekele - UGR/3739/12
-Bisrat Walle - UGR//12
-Feven Belay - UGR/3979/12
-Kaleabe Negussie - UGR/3411/12
-Paulos Dessie - UGR/6912/12
+| Name | ID |
+|---|:---|
+| Beimnet Bekele | UGR/3739/12 |
+| Bisrat Walle | UGR//12 |
+| Feven Belay | UGR/3979/12 |
+| Kaleabe Negussie | UGR/3411/12 |
+| Paulos Dessie | UGR/6912/12 |
 
 
 
